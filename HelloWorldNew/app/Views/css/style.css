@@ -1,0 +1,44 @@
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background color for the body */
+body {
+  background-color: #faf3dd; /* A light pastel yellow */
+  font-family: "Poppins", sans-serif; /* Use Poppins as the font */
+}
+
+/* Style the header */
+header {
+  background-color: #ffafcc; /* A soft pastel pink */
+  color: #6d6875; /* A pastel purple for contrast */
+  padding: 20px;
+  text-align: center;
+}
+
+header title {
+  font-size: 24px;
+  font-weight: 600; /* Poppins semi-bold */
+}
+
+/* Style the navigation menu */
+nav a {
+  text-decoration: none;
+  color: #6d6875; /* Pastel purple for the text */
+  font-weight: bold;
+  margin: 10px;
+}
+
+/* Style links on hover */
+nav a:hover {
+  text-decoration: underline;
+  color: #b5838d; /* A darker pastel pink for hover effect */
+}
